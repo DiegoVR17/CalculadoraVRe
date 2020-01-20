@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/lightgray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="1er Banda"
+            android:textColor="@color/red"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="2da Banda"
+            android:textColor="@color/red"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="3er Banda"
+            android:textColor="@color/red"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="4ta Banda"
+            android:textColor="@color/red"
+            android:textSize="10dp"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:id="@+id/Spin1B"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/Spin2B"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/Spin3B"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/Spin4B"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ImageRe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvConversion"
+        android:textSize="15dp"
+        android:textColor="@color/red"
+        android:textAlignment="center">
+    </TextView>
+
+
+
+</LinearLayout>
